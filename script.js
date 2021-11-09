@@ -1,6 +1,6 @@
 const botaoEntrar = document.querySelector('#btn');
-const inputEmail = document.querySelector('#input-email');
-const inputSenha = document.querySelector('#input-senha');
+const inputEmail = document.querySelector('#input-login-email');
+const inputSenha = document.querySelector('#input-login-senha');
 
 botaoEntrar.addEventListener('click', (event) => {
   event.preventDefault();
