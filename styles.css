@@ -5,8 +5,11 @@ html , body {
 }
 
 .header {
+  height: 80px;
   display: flex;
+  justify-content: space-between;
   background-color: rgb(50, 167, 145);
+  align-items: center;
 }
 
 main {
@@ -17,6 +20,18 @@ main {
   display: flex;
   flex-direction: column;
   width: 675px;
+}
+
+.trybewarts-header-logo {
+  height: 70px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+#trybewarts-header-title {
+  color: white;
 }
 
 #trybewarts-forms-logo {
