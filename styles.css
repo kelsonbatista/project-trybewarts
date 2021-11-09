@@ -18,6 +18,7 @@ main {
 
 #evaluation-form {
   display: flex;
+  flex-direction: column;
   width: 675px;
 }
 
@@ -31,4 +32,12 @@ main {
 
 #trybewarts-header-title {
   color: white;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#input-name , #input-lastname {
+  display: block;
 }
