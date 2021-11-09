@@ -13,7 +13,7 @@ botaoEntrar.addEventListener('click', (event) => {
   }
 });
 
-inputCheckBox.addEventListener('change', (event)=> {
+inputCheckBox.addEventListener('change', (event) => {
   if (event.target.checked) {
     botaoEnviar.disabled = false;
   } else {
