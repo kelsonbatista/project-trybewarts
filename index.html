@@ -12,9 +12,9 @@
 </head>
 
 <body>
-  
-<header>
-  <section class="header">
+
+  <header>
+    <section class="header">
       <img src="./images/trybewarts-header-logo.svg" class="trybewarts-header-logo">
       <h1 id="trybewarts-header-title">Trybewarts</h1>
       <form class="trybewarts-login">
@@ -22,8 +22,8 @@
         <input id="input-senha" class="form-control" type="password" name="password" placeholder="Senha" required>
         <button id="btn" class="btn btn-primary">Entrar</button>
       </form>
-  </section>
-</header>
+    </section>
+  </header>
 
   <main>
 
@@ -31,37 +31,63 @@
       <div class="form__content">
         <form action="" id="evaluation-form">
           <div>
-          <div class="input-group">
-            <input type="text" class="form-control" id="input-name" placeholder="Nome">
-            <input type="text" class="form-control" id="input-lastname" placeholder="Sobrenome">
+            <div class="input-group">
+              <input type="text" class="form-control" id="input-name" placeholder="Nome">
+              <input type="text" class="form-control" id="input-lastname" placeholder="Sobrenome">
+            </div>
           </div>
-        </div>
 
-        <div class="input-group">
-          <input type="text" class="form-control" id="input-email" placeholder="Email">
+          <div class="input-group">
+            <input type="text" class="form-control" id="input-email" placeholder="Email">
 
-          <select class="form-select" name="" id="house">
-            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-            <option value="Corvinode" id="corvinode-house">Corvinode</option>
-            <option value="Pytherina" id="pytherina-house">Pytherina</option>
-          </select>
-        </div>
+            <select class="form-select" name="" id="house">
+              <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+              <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+              <option value="Corvinode" id="corvinode-house">Corvinode</option>
+              <option value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
+          </div>
+          
+          <label for="" id="label-family">Qual sua família?</label>
 
-        <label for="" id="label-family">Qual sua família?</label>
+          <label for="radio-frontend">
+            <input type="radio" name="family" class="form-check-input" id="radio-frontend" value="Frontend">Família Frontend
+          </label>
 
-        <label for="radio-frontend">
-        <input type="radio" name="family" id="radio-frontend" value="Frontend">
-        Família Frontend</label>
+          <label for="radio-backend">
+            <input type="radio" name="family" class="form-check-input" id="radio-backend" value="Backend">Família Frontend
+          </label>
 
-        <label for="radio-backend">
-        <input type="radio" name="family" id="" value="Backend">
-        Família Frontend</label>
+          <label for="radio-fullstack">
+            <input type="radio" name="family" class="form-check-input" id="radio-fullstack" value="FullStack">Família FullStack
+          </label>
+        
+          <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
 
-        <label for="radio-fullstack">
-        <input type="radio" name="family" id="" value="FullStack">
-        Família FullStack</label>
+          <label for="check-hofs">
+            <input type="checkbox" name="content" class="form-check-input" id="check-hofs" value="HoFs">HoFs
+          </label>
 
+          <label for="check-jest">
+            <input type="checkbox" name="content" class="form-check-input" id="check-jest" value="Jest">Jest
+          </label>
+
+          <label for="" id="check-promises">
+            <input type="checkbox" name="content" class="form-check-input" id="check-promises" value="Promises">Promises
+          </label>
+
+          <label for="" id="check-react">
+            <input type="checkbox" name="content" class="form-check-input" id="check-react" value="React">React
+          </label>
+
+          <label for="" id="check-sql">
+            <input type="checkbox" name="content" class="form-check-input" id="check-sql" value="SQL">SQL
+          </label>
+
+          <label for="" id="check-python">
+            <input type="checkbox" name="content" class="form-check-input" id="check-python" value="Python">Pyhton
+          </label>
+          
         </form>
       </div>
     </section>
