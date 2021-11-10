@@ -3,6 +3,9 @@ const inputEmail = document.querySelector('#input-login-email');
 const inputSenha = document.querySelector('#input-login-senha');
 const inputCheckBox = document.querySelector('#agreement');
 const botaoEnviar = document.querySelector('#submit-btn');
+const contador = document.querySelector('#counter');
+const textarea = document.querySelector('#textarea');
+contador.innerText = 500;
 
 botaoEntrar.addEventListener('click', (event) => {
   event.preventDefault();
@@ -20,3 +23,8 @@ inputCheckBox.addEventListener('change', (event) => {
     botaoEnviar.disabled = true;
   }
 }, false);
+
+textarea.addEventListener('input', () => {
+  const conta = 500 - textarea.value.length;
+  contador.innerText = conta;
+});
