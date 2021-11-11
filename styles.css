@@ -10,10 +10,16 @@ html , body {
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
   align-items: center;
+  padding: 50px 30px;
+}
+
+#input-login-email , #input-login-senha {
+  margin: 0 5px;
 }
 
 main {
   display: flex;
+  justify-content: center;
 }
 
 #evaluation-form {
