@@ -41,3 +41,7 @@ main {
 #input-name , #input-lastname {
   display: block;
 }
+
+footer {
+  bottom: 0;
+}
